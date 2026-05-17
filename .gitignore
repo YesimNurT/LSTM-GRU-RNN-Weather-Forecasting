@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large; download instructions in data/README.md)
+data/raw/
+data/processed/
+*.csv
+
+# Model checkpoints and tuning artifacts
+hyperparam_tuning/
+*.h5
+*.keras
+saved_models/
+
+# Kaggle working directory artifacts
+/kaggle/
+
+# Large binary files (PDFs can be shared separately, e.g. via Drive or email)
+*.pdf
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
