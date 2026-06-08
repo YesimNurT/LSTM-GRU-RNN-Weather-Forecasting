@@ -1,42 +1,38 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
 *.egg-info/
-dist/
-build/
-*.egg
 
-# Virtual environments
+# Notebooks
+.ipynb_checkpoints/
+
+# Environments
 .venv/
 venv/
 env/
+.env
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# Data files (large; download instructions in data/README.md)
-data/raw/
-data/processed/
-*.csv
-
-# Model checkpoints and tuning artifacts
-hyperparam_tuning/
-*.h5
-*.keras
-saved_models/
-
-# Kaggle working directory artifacts
-/kaggle/
-
-# Large binary files (PDFs can be shared separately, e.g. via Drive or email)
-*.pdf
-
-# macOS
+# OS / editors
 .DS_Store
-
-# IDE
 .idea/
 .vscode/
-*.swp
+
+# Keras Tuner trials
+*tuner*/
+untitled_project/
+
+# Data & model artifacts (keep raw data out of git)
+*.csv
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.pickle
+*.npy
+*.npz
+data/raw/
+data/processed/
+checkpoints/
+models/
+outputs/
+logs/
